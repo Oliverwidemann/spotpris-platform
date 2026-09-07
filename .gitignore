@@ -216,3 +216,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+k3s.yaml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+
+# Rust
+target/
+
+# Data og modeller
+data/
+*.parquet
+*.pkl
+*.joblib
+
+# Miljø
+.env
