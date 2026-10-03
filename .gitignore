@@ -239,3 +239,4 @@ data/
 
 # Miljø
 .env
+.DS_Store
